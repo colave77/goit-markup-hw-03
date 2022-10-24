@@ -204,12 +204,14 @@ display: inline;
     height: 648px;
     background-color: var(--five-color);
     padding-top: 40px;
-    /* padding-inline-start: 0px; */
+        /* padding-inline-start: 0px; */
 }
 
 .team-cent{
-    justify-content: center;
+    justify-content: space-between;
     padding-inline-start: 0px;
+    padding-left: 215px;
+    padding-right: 215px;
 }
 
 .name-team{
@@ -225,8 +227,15 @@ text-align: left;
 }
 
 .font-figure{
+
     background-color: var(--second-color);
+    margin: 0;
+    border: 1px solid #EEEEEE;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+0px 4px 4px rgba(0, 0, 0, 0.06),
+1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
 
 .work-team{
     color: var(--fourth-color);
@@ -273,15 +282,17 @@ margin-right: 20px;
 }
 
 .between-parts{
-    justify-content: space-between;
-    margin-right: 50px;
+    justify-content: space-around;
+    /* margin-right: 30px; */
 }
 
 .cen-ima
 {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 215px;
+    margin-right: 215px;
+    /* flex-wrap: wrap; */
 }
 
 .writers{
@@ -320,6 +331,15 @@ width: 270px;
     margin: 0;
 }
 
+.order-filter:hover
+{
+background: #FFFFFF;
+border: 1px solid #EEEEEE;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+0px 4px 4px rgba(0, 0, 0, 0.06),
+1px 4px 6px rgba(0, 0, 0, 0.16);
+cursor: pointer;
+}
 
 .order-buttons {
     display: flex;
@@ -329,3 +349,14 @@ width: 270px;
     justify-content: center;
     margin-inline: 0;
 }
+
+.shadow-teamm
+{
+/* width: 270px;
+background: #FFFFFF; */
+border: 1px solid #EEEEEE;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+0px 4px 4px rgba(0, 0, 0, 0.06),
+1px 4px 6px rgba(0, 0, 0, 0.16);
+cursor: pointer;}
+
