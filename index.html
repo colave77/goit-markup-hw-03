@@ -12,60 +12,59 @@
       rel="stylesheet"
     />
   </head>
-  <body>
-    <header class="menu container-header">
-      <section>
+  <body class="container">
+    <header>
+      <div class="container menu height-header">
         <div class="menu">
           <a href="http://www.elwebstudio.com" class="not-line"
             ><h4 class="webstudio-logo">WebStudio</h4></a
           >
-          <section class="menu nav-width">
-            <nav>
-              <ul class="menu unpointing">
-                <li class="item">
-                  <a href="index.html" class="not-line"
-                    ><h6 class="desk not-line">Estudio</h6></a
-                  >
-                </li>
-                <li class="item">
-                  <a href="portfolio.html" class="not-line"
-                    ><h6 class="desk not-line">Portafolio</h6></a
-                  >
-                </li>
-                <li class="item">
-                  <a href="" class="not-line"
-                    ><h6 class="desk not-line">Contactos</h6></a
-                  >
-                </li>
-              </ul>
-            </nav>
-          </section>
+
+          <nav class="menu nav-width">
+            <ul class="menu unpointing">
+              <li class="item">
+                <a href="index.html" class="not-line"
+                  ><h6 class="desk not-line">Estudio</h6></a
+                >
+              </li>
+              <li class="item">
+                <a href="portfolio.html" class="not-line"
+                  ><h6 class="desk not-line">Portafolio</h6></a
+                >
+              </li>
+              <li class="item">
+                <a href="" class="not-line"
+                  ><h6 class="desk not-line">Contactos</h6></a
+                >
+              </li>
+            </ul>
+          </nav>
         </div>
-      </section>
-      <section>
-        <ul class="menu unpointing">
-          <li class="item not-line mail-tel">info@devstudio.com</li>
-          <li class="mail-tel">+52 55 5529 6000</li>
-        </ul>
-      </section>
+        <div>
+          <ul class="menu unpointing">
+            <li class="item not-line mail-tel">info@devstudio.com</li>
+            <li class="mail-tel">+52 55 5529 6000</li>
+          </ul>
+        </div>
+      </div>
     </header>
     <!-- Sección 1 para estructurar la primera parte del cuerpo de la pagina, donde se establece el titulo mas grande a ser usado -->
-    <main class="container-main-estudio">
+    <main>
       <section class="title-section">
-        <div class="space-ti-big">
+        <div class="container">
           <h1 class="title-big">
             SOLUCIONES EFICACES PARA <br />
             SU NEGOCIO
           </h1>
-          <!-- principal button -->
-          <button class="desk button-index" type="button">
-            Solicite nuestro servicio
-          </button>
         </div>
+        <!-- principal button -->
+        <button class="button-index" type="button">
+          Solicite nuestro servicio
+        </button>
       </section>
       <!-- details -->
-      <section class="text-services">
-        <div class="menu space-info-text">
+      <section>
+        <div class="container text-services menu space-info-text">
           <div class="writers">
             <h4 class="title-objetives">ATENCION A LOS DETALLES</h4>
             <p>
@@ -99,44 +98,46 @@
       </section>
       <!-- services -->
       <section>
-        <h2 class="title-services-team">A qué nos dedicamos</h2>
-        <div class="cen-ima">
-          <ul class="menu unpointing">
-            <div class="between-parts">
-              <li>
-                <img
-                  src="images/pc.jpg"
-                  alt="Imagen de PC"
-                  width="373"
-                  class="images-services"
-                />
-              </li>
-            </div>
-            <div class="between-parts">
-              <li>
-                <img
-                  src="images/laptop.jpg"
-                  alt="Imagen de Portatil"
-                  width="373"
-                  class="images-services"
-                />
-              </li>
-            </div>
-            <div class="between-parts">
-              <li>
-                <img
-                  src="images/tablet.jpg"
-                  alt="Imagen de tablet"
-                  width="373"
-                  class="images-services"
-                />
-              </li>
-            </div>
-          </ul>
+        <div class="container">
+          <h2 class="title-services-team">A qué nos dedicamos</h2>
+          <div class="menu team-cent cen-ima">
+            <ul class="menu team-cent unpointing">
+              <div class="between-parts">
+                <li>
+                  <img
+                    src="images/pc.jpg"
+                    alt="Imagen de PC"
+                    width="373"
+                    class="images-services"
+                  />
+                </li>
+              </div>
+              <div class="between-parts">
+                <li>
+                  <img
+                    src="images/laptop.jpg"
+                    alt="Imagen de Portatil"
+                    width="373"
+                    class="images-services"
+                  />
+                </li>
+              </div>
+              <div class="between-parts">
+                <li>
+                  <img
+                    src="images/tablet.jpg"
+                    alt="Imagen de tablet"
+                    width="373"
+                    class="images-services"
+                  />
+                </li>
+              </div>
+            </ul>
+          </div>
         </div>
       </section>
       <!-- team -->
-      <section class="team">
+      <section class="container team">
         <h2 class="title-services-team">Nuestro Equipo</h2>
         <ul class="team-cent menu unpointing">
           <div class="shadow-team">
@@ -207,14 +208,16 @@
       </section>
     </main>
     <!-- Parte final de la pagina donde se describe el pie de pagina  -->
-    <footer class="info-section container-footer">
-      <p class="webstudio-logo space-info-sec">WebStudio</p>
-      <address class="space-info-sec">
-        Calz. Ticomán 500, Ciudad de <br />
-        México, CDMX, México
-      </address>
-      <p class="not-line mail-tel space-info-sec">info@example.com</p>
-      <p class="mail-tel space-info-sec">+52 55 5529 6000</p>
+    <footer class="info-section-footer">
+      <div class="container">
+        <p class="webstudio-logo space-info-sec">WebStudio</p>
+        <address class="space-info-sec">
+          Calz. Ticomán 500, Ciudad de <br />
+          México, CDMX, México
+        </address>
+        <p class="not-line mail-tel space-info-sec">info@example.com</p>
+        <p class="mail-tel space-info-sec">+52 55 5529 6000</p>
+      </div>
     </footer>
   </body>
 </html>
